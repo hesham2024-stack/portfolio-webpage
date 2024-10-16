@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  font-family: "Open sans", "sans-serif";
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 200px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+.nav-tittle {
+  font-weight: 800;
+  font-size: 45px;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.btn-primary {
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: white;
+  border: 0;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px;
+}
+.banner {
+  margin: 0 200px;
+  display: flex;
+  align-items: center;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+}
+.banner-sub-title {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.banner-description {
+  color: #757575;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.header {
+  background: #fff8f3;
+  background-image: url(header_bg.png),url(developer.png);
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+ 
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about {
+  background: #fff8f3;
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center;
+}
+.section-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 30px;
+}
+.section-description {
+  color: #757575;
+  font-size: 18 px;
+  margin-bottom: 30px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info-title {
+  font-size: 20px;
+  color: #757575;
+}
+.info-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #757575;
+}
+.section {
+  margin-top: 130px;
+}
+.skills-container {
+  display: flex;
+  row-gap: 24px;
+}
+.skill-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.skill-description {
+  color: #757575;
+}
+
+.skill {
+  background: #ffffff;
+  box-shadow: 0 6px 50px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+.resume-content {
+  display: flex;
+  gap: 24px;
+}
+.resume-item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.sub-title {
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.descriptrion {
+  color: #757575;
+}
+.resume-button {
+  text-align: center;
+  margin-top: 50px;
+}
+.contact {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  padding: 130px 200px;
+}
+.contact.section-title {
+  text-align: left;
+}
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: 0;
+  width: 100%;
+  padding: 10px 30px;
+}
+input {
+  height: 64px;
+}
+.contact a {
+  text-decoration: none;
+}
+/*addition styles
+#new{
+
+margin-top: 110px;  
+}
+#new-what{
+  margin-top: 110px;
+}
+#no{
+  background-blend-mode: normal;
+}
+  */
+  .last{
+    display: flex;
+   
+   
+    
+    gap: 10px;
+   
+    
+  }
+  #problem1{
+    height: 100px;
+
+  }
+  #problem2{
+    height: 100px;
+  }
+ 
